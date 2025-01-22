@@ -1,7 +1,6 @@
 package com.devsuperior.dslist.entities;
 
 import jakarta.persistence.*;
-
 import java.util.Objects;
 
 @Entity
@@ -14,7 +13,6 @@ public class GameList {
     private String name;
 
     public GameList(){
-
     }
 
     public GameList(Long id, String name) {
